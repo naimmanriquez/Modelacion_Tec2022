@@ -28,3 +28,6 @@ Sistemas de colas, modelos de poisson, cadenas de markov, matriz de transición.
 
 * [An introduction to linear programming and game theory](https://upcommons.upc.edu/bitstream/handle/2117/78335/Modeling+and+Solving+Linear+Programming+with+R.pdf?sequence=1)
 
+* [Optimización matemática con R. Volumen I: Introducción al modelado y resolución de problemas](https://cran.r-project.org/doc/contrib/Optimizacion_Matematica_con_R_Volumen_I.pdf)
+
+
