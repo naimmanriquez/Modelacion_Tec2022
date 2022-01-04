@@ -23,3 +23,7 @@ Análisis de decisiones, teoría de juegos, modelos bajo incertidumbre.
 ### Modúlo 3: Líneas de espera y cadenas de Markov: 
 Sistemas de colas, modelos de poisson, cadenas de markov, matriz de transición.  
 
+## Bibliografía recomendada:
+* [Modeling and Solving Linear Programming with R](https://upcommons.upc.edu/bitstream/handle/2117/78335/Modeling+and+Solving+Linear+Programming+with+R.pdf?sequence=1)
+
+
