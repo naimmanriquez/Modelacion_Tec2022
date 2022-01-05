@@ -21,7 +21,68 @@ La empresa posee 3 plantas:
 La pregunta a responder consiste en:
 ¿Qué combinación de productos (número de unidades de producto por semana) maximizan la ganancia?
 
-Para hacerlo en RStudio se usa el código:
+### Solución gráfica
+
+Paso 1: Obtener intersecciones de restricciones con ejes.
+
+#### Restricción planta 3:
+
+<img src="https://latex.codecogs.com/svg.image?3P&plus;2V\leq&space;18" title="3P+2V\leq 18" />
+
+Cada variable se iguala a cero y despeja la otra variable.
+
+Si, <img src="https://latex.codecogs.com/svg.image?P&space;=&space;0" title="P = 0" />
+
+<img src="https://latex.codecogs.com/svg.image?3&space;*&space;0&space;&plus;&space;2V&space;=&space;18" title="3 * 0 + 2V = 18" /> (nota: por simplicidad se usan como igualdades)
+
+<img src="https://latex.codecogs.com/svg.image?2V&space;=&space;18" title="2V = 18" />
+
+<img src="https://latex.codecogs.com/svg.image?V&space;=&space;9" title="V = 9" />
+
+Ahora si: <img src="https://latex.codecogs.com/svg.image?V&space;=&space;0" title="V = 0" />
+
+<img src="https://latex.codecogs.com/svg.image?3P&space;&plus;&space;2*0&space;=&space;18" title="3P + 2*0 = 18" />
+
+<img src="https://latex.codecogs.com/svg.image?P&space;=&space;6" title="P = 6" />
+
+#### Restricción planta 1:
+
+<img src="https://latex.codecogs.com/svg.image?P&space;\leq&space;4" title="P \leq 4" />
+
+En este caso no se puede despejar, entonces: P = 4.
+
+No intersecta el eje V (entonces sería una línea vertical)
+
+#### Restricción planta 2:
+
+<img src="https://latex.codecogs.com/svg.image?2V&space;\leqslant&space;12" title="2V \leqslant 12" />
+
+En este caso V = 6
+
+No intersecta el eje P (entonces sería una línea horizontal.
+
+Paso 2: Graficar restricciones usando las intersecciones calculadas. 
+
+![image](https://user-images.githubusercontent.com/66890535/148238741-f1a6fee4-5a02-42f2-81bf-3962f764f388.png)
+
+Paso 3: Mostrar la región factible:
+
+![image](https://user-images.githubusercontent.com/66890535/148239197-2b903832-9186-4b62-a378-0bbb22cbdcde.png)
+
+Paso 4: Obtener los vértices de la región factible
+
+![image](https://user-images.githubusercontent.com/66890535/148239531-e8dd25d9-879a-42d4-847b-c29ecc39c76d.png)
+
+Ahora toca evaluar cada uno de los vertices en la función objetivo. 
+
+<img src="https://latex.codecogs.com/svg.image?Maximizar&space;Z:&space;300P&space;&plus;&space;500V" title="Maximizar Z: 300P + 500V" />
+
+![image](https://user-images.githubusercontent.com/66890535/148240147-3787408a-fd14-4a86-8965-c9439b35315e.png)
+
+Ahora podemos elegir el punto optimo de Z, en este caso es cuando P = 2, y V = 6
+
+
+#### Para hacerlo en RStudio se usa el código:
 ```ruby
 library(lpSolveAPI)
 lp.model = make.lp(0,2)
