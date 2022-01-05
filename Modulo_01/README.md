@@ -16,6 +16,8 @@ La empresa posee 3 plantas:
 * Fabrica 2: Elabora marcos de madera.
 * Fabrica 3: vidrio y ensambla ventanas y puertas. 
 
+![image](https://user-images.githubusercontent.com/66890535/148234986-1d42da8e-3f91-450a-8929-ba04108137e2.png)
+
 La pregunta a responder consiste en:
 ¿Qué combinación de productos (número de unidades de producto por semana) maximizan la ganancia?
 
