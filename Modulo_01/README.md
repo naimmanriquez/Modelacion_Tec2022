@@ -1,4 +1,12 @@
 ## Tema 2: Modelos de programación lineal.
+### Introducción: método gráfico.
+Los modelos de programación lineal pueden ser resueltos haciendo uso de dos métodos: el gráfico o el simplex, dependiendo del tipo de variables que se puedan tener.
+El  procedimiento  gráfico  solamente  lo  utilizaremos  para  la  resolución  de problemas  lineales  con  dos  variables  de  decisión.  Este  procedimiento  tiene  las siguientes fases:  
+1. Dibujar  un  sistema  de  coordenadas  cartesianas  en  el  que  las  variables de decisión están representadas por los ejes. 
+2. Dibujar las restricciones del problema incluyendo las de no  negatividad. La intersección de todas  las  restricciones determina  lo que se denomina región factible.
+3. De todos los puntos de la región factible (puntos que satisfacen  todas las restricciones), se determinan los vértices ya que en uno de ellos será la solución del problema. 
+4. Se evalúa la función objetivo en todos los vértices de la región factible y se elige como solución óptima aquel vértice que  maximice o minimice (según sea el caso) el valor de la función objetivo. 
+
 
 ### Ejemplo en clase
 Un sastre elabora dos tipos de trajes para hombre, blazer y ejecutivos y a su vez, se cuenta con dos procesos: corte y costura: 
