@@ -1,3 +1,33 @@
+## Tema 1: Programación lineal. 
+### Introducción
+La programación lineal forma parte de la investigación de operaciones, disciplina que surge durante la Segunda Guerra Mundial en Inglaterra ante la necesidad de determinar el mejor uso de material bélico.
+
+La finalidad del uso de modelos de programación lineal es que a través de la definición de variables, objetivos y restricciones lineales (uso de funciones matemáticas), podamos maximizar o minimizar los resultados, obteniendo la mejor solución posible a la situación planteada.
+
+La solución de un modelo consiste en dar el valor de las variables de la decisión que optimizan (maximizan o minimizan) el valor de la función objetivo a la vez que satisfacen el conjunto de restricciones. La solución resultante se suele denominar solución posible óptima. Resumiendo, un modelo matemático típico de Investigación Operativa se puede representar de la siguiente manera: 
+
+Maximizar o Minimizar:             Función Objetivo 
+
+Sujeto a:                       Restricciones
+
+### Componentes principales del modelado
+#### Alternativas o variables:
+Dentro del problema o situación planteada es lo que se está analizando, además de ser el primer paso en el desarrollo de un modelo matemático, de ahí la importancia de que estén bien definidas.
+
+#### Objetivos
+Son el resultado que se está buscando obtener. Para los modelos de programación lineal, estos resultados pueden ser de maximizar o minimizar la función objetivo (meta).
+
+#### Restricciones
+Son las limitaciones planteadas en el problema o situación, estas pueden ser explícitas, es decir que se mencionen textualmente; o implícitas, que se infieran a partir del objetivo que se esté buscando.
+
+### Metodología para la programación lineal
+Independientemente de la naturaleza del problema, cabe distinguir una serie de etapas comunes:
+* Formulación del problema 
+* Construcción de un modelo matemático que lo represente 
+* Obtención de una solución 
+* Verificación del modelo y de la solución, 
+* Puesta en practica y mantenimiento de la solución. 
+
 ## Tema 2: Modelos de programación lineal.
 ### Introducción: método gráfico.
 Los modelos de programación lineal pueden ser resueltos haciendo uso de dos métodos: el gráfico o el simplex, dependiendo del tipo de variables que se puedan tener.
